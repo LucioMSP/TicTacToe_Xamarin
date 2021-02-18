@@ -1,0 +1,14 @@
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/bin/Debug/netstandard2.0/TicTacToe_VGGL.deps.json
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/bin/Debug/netstandard2.0/TicTacToe_VGGL.dll
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/bin/Debug/netstandard2.0/ref/TicTacToe_VGGL.dll
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/bin/Debug/netstandard2.0/TicTacToe_VGGL.pdb
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/TicTacToe_VGGL.csprojAssemblyReference.cache
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/TicTacToe_VGGL.AssemblyInfoInputs.cache
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/TicTacToe_VGGL.AssemblyInfo.cs
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/TicTacToe_VGGL.csproj.CoreCompileInputs.cache
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/TicTacToe_VGGL.dll
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/ref/TicTacToe_VGGL.dll
+/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/obj/Debug/netstandard2.0/TicTacToe_VGGL.pdb
