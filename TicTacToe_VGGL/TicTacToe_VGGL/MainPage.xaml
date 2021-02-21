@@ -3,22 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TicTacToe_VGGL.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+        <Grid Margin="0,20,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <Label x:Name="InstructionsYouLbl" Text="You (X)"  Grid.Row="0" Grid.Column="0" Margin="5" IsVisible="True"/>
+        <Label x:Name="YouWinLbl" Text="You Win" TextColor="Blue" FontAttributes="Bold" FontSize="16" Grid.Row="0" Grid.Column="0" Margin="5" IsVisible="False"/>
+
+        <Label x:Name="InstructionsOpponentLbl" Text="Opponent (O)" Grid.Row="0" Grid.Column="2" Margin="5" HorizontalTextAlignment="End" IsVisible="True"/>
+        <Label x:Name="YourOpponentWinLbl" Text="You Win" TextColor="Blue" FontAttributes="Bold" FontSize="16" Grid.Row="0" Grid.Column="2" Margin="5" IsVisible="False"/>
+
+        <Button x:Name="button1" Text="" Grid.Row="1" Grid.Column="0" BackgroundColor="WhiteSmoke" Clicked="button_Clicked"/>
+        <Button x:Name="button2" Text="" Grid.Row="1" Grid.Column="1" BackgroundColor="WhiteSmoke" Clicked="button_Clicked"/>
+        <Button x:Name="button3" Text="" Grid.Row="1" Grid.Column="2" BackgroundColor="WhiteSmoke" Clicked="button_Clicked"/>
+        <Button x:Name="button4" Text="" Grid.Row="2" Grid.Column="0" BackgroundColor="WhiteSmoke" Clicked="button_Clicked"/>
+        <Button x:Name="button5" Text="" Grid.Row="2" Grid.Column="1" BackgroundColor="WhiteSmoke" Clicked="button_Clicked"/>
+        <Button x:Name="button6" Text="" Grid.Row="2" Grid.Column="2" BackgroundColor="WhiteSmoke" Clicked="button_Clicked"/>
+        <Button x:Name="button7" Text="" Grid.Row="3" Grid.Column="0" BackgroundColor="WhiteSmoke" Clicked="button_Clicked"/>
+        <Button x:Name="button8" Text="" Grid.Row="3" Grid.Column="1" BackgroundColor="WhiteSmoke" Clicked="button_Clicked"/>
+        <Button x:Name="button9" Text="" Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" Clicked="button_Clicked"/>
+              
+        <StackLayout x:Name="gameOverStackLayout" Grid.Row="0" Grid.Column="1" IsVisible="False">
+            <Label Text="Game Over" HorizontalTextAlignment="Center"/>
+            <Button Text="Play again" Clicked="playagain_Clicked"/>
+        </StackLayout>
+
+    </Grid>
 </ContentPage>

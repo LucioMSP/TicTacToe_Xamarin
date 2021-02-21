@@ -1,6 +1,31 @@
 ﻿<Properties StartupConfiguration="{A4C6F9E8-05E6-4BAC-96C2-E71833FD22E3}|Default">
-  <MonoDevelop.Ide.ItemProperties.TicTacToe__VGGL FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.TicTacToe__VGGL.Android FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.TicTacToe__VGGL.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TicTacToe_VGGL/MainPage.xaml">
+    <Files>
+      <File FileName="TicTacToe_VGGL/MainPage.xaml" Line="10" Column="42" />
+      <File FileName="TicTacToe_VGGL/MainPage.xaml.cs" />
+      <File FileName="TicTacToe_VGGL/TicTacToeGameEngine.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TicTacToe_VGGL" expanded="True">
+            <Node name="TicTacToe_VGGL" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TicTacToe__VGGL.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/TicTacToeGameEngine.cs" relfile="TicTacToe_VGGL/TicTacToeGameEngine.cs" line="23" column="1" />
+      <Breakpoint file="/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/MainPage.xaml.cs" relfile="TicTacToe_VGGL/MainPage.xaml.cs" line="31" column="1" />
+      <Breakpoint file="/Users/lucio/Solutions/XamarinApps/TicTacToe/TicTacToe_Xamarin/TicTacToe_VGGL/TicTacToe_VGGL/MainPage.xaml.cs" relfile="TicTacToe_VGGL/MainPage.xaml.cs" line="35" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
