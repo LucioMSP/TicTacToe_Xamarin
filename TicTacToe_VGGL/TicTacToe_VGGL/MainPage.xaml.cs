@@ -27,20 +27,22 @@ namespace TicTacToe_VGGL
         private void button_Clicked(object sender, EventArgs e)
         {
             game.SetButton((Button)sender);
+
             if (game.CheckWinner(buttons))
             {
-                gameOverStackLayout.IsVisible = true;
+                var player = 0;
 
-                if(game.CheckWinner(buttons))
+                if(game.CheckGame(player.ToString()) == "2")
                 {
                     InstructionsYouLbl.IsVisible = false;
                     YouWinLbl.IsVisible = true;
+                    gameOverStackLayout.IsVisible = true;
                 }
-
                 else
                 {
                     InstructionsOpponentLbl.IsVisible = false;
                     YourOpponentWinLbl.IsVisible = true;
+                    gameOverStackLayout.IsVisible = true;
                 }
             }
         }

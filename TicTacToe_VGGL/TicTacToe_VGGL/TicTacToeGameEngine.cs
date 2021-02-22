@@ -19,6 +19,11 @@ namespace TicTacToe_VGGL
         };
         private int i;
 
+        public string CheckGame(string player)
+        {
+            return playerTurn.ToString();
+        }
+
         public bool CheckWinner(Button[] buttons)
         {
             bool gameOver = false;
@@ -34,6 +39,9 @@ namespace TicTacToe_VGGL
                 {
                     b1.BackgroundColor = b2.BackgroundColor = b3.BackgroundColor = Color.DarkGray;
                     gameOver = true;
+
+                    CheckGame(playerTurn.ToString());
+
                     break;
                 }
             }
@@ -54,7 +62,11 @@ namespace TicTacToe_VGGL
                     gameOver = true;
                 }
             }
+
+            CheckGame(playerTurn.ToString());
+
             return gameOver;
+
         }
 
         public void SetButton(Button b)
